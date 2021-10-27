@@ -12,12 +12,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
-<body onload="slider()">
+<body>
   <div class="banner">
     <div class="slider">
-      <img src="images/3_buildings.png" alt="3_buildings" id="slideImg">
+      <img src="images/exotic-night.jpg" alt="3_buildings" id="slideImg">
     </div>
-    <div class="overlay">
+    <!-- <div class="overlay"> -->
       <div class="navbar">
         <div class="logo">
           <a href="index.html">
@@ -56,15 +56,15 @@
         <img src="images/banner-design.png" width="450" height="325" alt="taglines">
         <div class="content-overlay">
           <div class="content-title"><span class="K">K</span><span class="n">n</span><span class="K">K</span> Builders & Developers</div>
-          <div class="content-text">We do not build just concrete walls or building, We build homes.</div>
+          <div class="content-text">We do not build just concrete walls or building, <strong style="color: rgb(165, 206, 241);">We build homes</strong>.</div>
           <div class="content-text">We believe that every person needs his dream home and we do our best to give it to you.</div>
         </div>
       </div>
-    </div>
+    <!-- </div> -->
   </div>
 
   <div class="about">
-    <div class="row">
+    <div class="about-row">
       <div class="col-left">
         <img src="images/knk-logo.png" alt="knk">
       </div>
@@ -103,12 +103,12 @@
       </div>
     </div>
 
-    <div class="row">
+    <!-- <div class="row">
       <img src="images/2-logos.png" alt="" style="width: 50%; height: 200px; margin-top: -55px;">
       <img src="images/2-logos.png" alt="" style="width: 50%; height: 200px; margin-top: -55px;">
-    </div>
+    </div> -->
 
-    <div class="row" style="margin-top:-10px;">
+    <div class="row">
       <div class="achievements">
         <span class="material-icons">
           construction
@@ -171,22 +171,24 @@
 
     <div class="row">
       <div class="project-image">
-        <img src="images/divine-design.png" alt="divine" class="building-design">
+        <img src="images/amin-seth-plaza-design.png" alt="divine" class="building-design">
       </div>
       <div class="project-desc">
-        <div class="project-date">--- JULY 2017</div>
-        <div class="project-title">DIVINE</div>
+        <div class="project-date">--- JUNE 2018</div>
+        <div class="project-title">AMIN SETH PLAZA</div>
         <div class="project-text">
           <ul type="none">
-            <li>Easy access to educational, hospital and market area</li>
+            <li>Garden at Podium Level</li>
             <li>Ample water supply, parking space</li>
             <li>Modern style lift</li>
+            <li>Easy access to educational, hospital and market area</li>
           </ul>
         </div>
         <div class="project-btn btn-rightBorder">Read more</div>
       </div>
     </div>
 
+    
     <div class="row">
       <div class="project-desc">
         <div class="project-date">--- JULY 2017</div>
@@ -198,7 +200,7 @@
             <li>Modern style lift</li>
           </ul>
         </div>
-        <div class="project-btn btn-leftBorder">Read more</div>
+        <div class="project-btn btn-rightBorder">Read more</div>
       </div>
       <div class="project-image">
         <img src="images/silver-sand-design.png" alt="divine" class="building-design">
@@ -207,11 +209,11 @@
     
     <div class="row">
       <div class="project-image">
-        <img src="images/amin-seth-plaza-design.png" alt="divine" class="building-design">
+        <img src="images/divine-design.png" alt="divine" class="building-design">
       </div>
       <div class="project-desc">
-        <div class="project-date">--- JULY 2017</div>
-        <div class="project-title">AMIN SETH PLAZA</div>
+        <div class="project-date">--- APRIL 2017</div>
+        <div class="project-title">DIVINE</div>
         <div class="project-text">
           <ul type="none">
             <li>Easy access to educational, hospital and market area</li>
@@ -221,7 +223,7 @@
         </div>
         <div class="project-btn btn-rightBorder">Read more</div>
       </div>
-    </div>
+    </div>    
 
     <div class="row" style="margin: 0 50% auto; text-transform: uppercase;">
       <div class="project-btn btn-rightBorder btn-leftBorder" style="margin-top: 0;">See All Projects</div>
@@ -229,6 +231,25 @@
 
   </div>
 
+  <div class="contact">
+    <div class="row">
+      <h2 style="color: #0a6e0ae3; text-transform: uppercase;">Contact Us</h2>
+    </div>
+    <hr style="width: 8%; margin-left: 5%; margin-top: -2%;" color="rgb(13, 44, 18)">
+
+    <div class="row">
+      <form action="mailto:arshadalikaldane@gmail.com" method="post" enctype=”multipart/form-data”></form>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="row">
+      <h2>Footer</h2>
+    </div>
+  </div>
+<!-- ze 6 2018
+
+ -->
   <script>
     var slideImg = document.getElementById("slideImg");
 
@@ -254,7 +275,7 @@
       }
       slideImg.src = images[i];
       i++;
-      setTimeout('slider()', 3000);
+      // setTimeout('slider()', 3000);
     }
   </script>
 
