@@ -1,19 +1,269 @@
-<html>
-  <head>
-    <title>KnK Builders & Developers</title>
-    <style>
-      body{
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-      },
-      h1{
-        color: #1edfe6;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KnK Builders & Developers</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body onload="slider()">
+  <div class="banner">
+    <div class="slider">
+      <img src="images/3_buildings.png" alt="3_buildings" id="slideImg">
+    </div>
+    <div class="overlay">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html">
+            <img src="images/knk-logo-half.png" alt="knk">
+          </a>
+        </div>
+        <div class="sidebar">
+          <div class="menu-icon">
+            <span class="material-icons">menu</span>
+          </div>
+          <ul class="menu-items" type="none">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Projects</a>
+            </li>
+            <li>
+              <a href="#">Events</a>
+            </li>
+            <li>
+              <a href="#">Gallery</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        
+      </div>
+      <div class="content">
+        <!-- <h1>KnK Builders & Developers</h1> -->
+        <img src="images/banner-design.png" width="450" height="325" alt="taglines">
+        <div class="content-overlay">
+          <div class="content-title"><span class="K">K</span><span class="n">n</span><span class="K">K</span> Builders & Developers</div>
+          <div class="content-text">We do not build just concrete walls or building, We build homes.</div>
+          <div class="content-text">We believe that every person needs his dream home and we do our best to give it to you.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="about">
+    <div class="row">
+      <div class="col-left">
+        <img src="images/knk-logo.png" alt="knk">
+      </div>
+      <!-- <div class="col-right">
+        <h3 class="about-title">ABOUT OUR COMPANY</h3>
+        <h1 class="about-head">We've been creating since 2010</h1>
+        <p class="about-text">Our Key to making your dream home is working with well experienced and professional company which comes highly recommended by all. KnK Builders and Developers, is this company, whose quality control and ouaranteed satisfaction help assure customers of pleasant building experience. 
+        </p>
+        <p class="about-text">
+          We know what is like to dream about and work for what you want in life. Making those desires come true by building a dream home, and not to be taken lightly. 
+        </p>
+        <p class="about-text">
+          
+          We have been in the business for many years and have been building exceptional and affordable homes, KnK Builders and Developers has highly reputable subcontractors. Furthermore, long after the work is complete. you can be assured that we will still be at your side to serve you better as our product is fully guaranteed.
+        </p> 
+        <p class="about-text">
+          
+          If you talk to our customers you will find only satisfied families who continue to work with KnK Builders and Developers, time and time again for all of their needs. It becomes clear that you can not make a better decision when thinking about buying house.
+        </p>
+        <h4 class="about-mission">
+          This is how we Build Family - The Odeon Family. 
+        </h4>
+      </div> -->
+      <div class="col-right">
+        <h3 class="about-title">ABOUT OUR COMPANY</h3>
+        <h1 class="about-head">We've been creating since 2010</h1>
+        <p class="about-text">
+          We are known with different names may be it KNK Builders & Developers, NRK Builders, DIVINE Home Makers or ZAFEERA Estates. We are one group for whom construction is TRADITION.
+        </p>
+        <p class="about-text">
+          We do not build just concrete walls or building, We build homes. We believe that every person needs his dream home and we do our best to give it to you.
+        </p>
+        <p class="about-tagline">
+          We try to fulfill your dreams with our efforts.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <img src="images/2-logos.png" alt="" style="width: 50%; height: 200px; margin-top: -55px;">
+      <img src="images/2-logos.png" alt="" style="width: 50%; height: 200px; margin-top: -55px;">
+    </div>
+
+    <div class="row" style="margin-top:-10px;">
+      <div class="achievements">
+        <span class="material-icons">
+          construction
+          </span>
+          <div class="achievement-info">
+            <div class="total-number">2010</div>
+            <div class="achievement-title">Established Since</div>
+          </div>
+      </div>
+
+      <div class="achievements">
+        <span class="material-icons">
+          apartment
+          </span>
+          <div class="achievement-info">
+            <div class="total-number">20+</div>
+            <div class="achievement-title">Projects Done</div>
+          </div>
+      </div>
+
+      <div class="achievements">
+        <span class="material-icons">
+          sentiment_satisfied_alt
+          </span>
+          <div class="achievement-info">
+            <div class="total-number">2350+</div>
+            <div class="achievement-title">Happy Cilents</div>
+          </div>
+      </div>
+
+      <div class="achievements">
+        <span class="material-icons">
+          engineering
+          </span>
+          <div class="achievement-info">
+            <div class="total-number">35+</div>
+            <div class="achievement-title">Real Professionals</div>
+          </div>
+      </div>
+
+
+      <div class="achievements">
+        <span class="material-icons">
+          emoji_events
+          </span>
+          <div class="achievement-info">
+            <div class="total-number">35+</div>
+            <div class="achievement-title">Awards Won</div>
+          </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="projects">
+    <div class="row">
+      <h2 style="color: #0a6e0ae3; ">LATEST COMPLETED PROJECTS</h2>
+    </div>
+    <hr style="width: 10%; margin-left: 5%; margin-top: -2%;" color="rgb(13, 44, 18)">
+
+    <div class="row">
+      <div class="project-image">
+        <img src="images/divine-design.png" alt="divine" class="building-design">
+      </div>
+      <div class="project-desc">
+        <div class="project-date">--- JULY 2017</div>
+        <div class="project-title">DIVINE</div>
+        <div class="project-text">
+          <ul type="none">
+            <li>Easy access to educational, hospital and market area</li>
+            <li>Ample water supply, parking space</li>
+            <li>Modern style lift</li>
+          </ul>
+        </div>
+        <div class="project-btn btn-rightBorder">Read more</div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="project-desc">
+        <div class="project-date">--- JULY 2017</div>
+        <div class="project-title" style="line-height: normal; margin-top: 25px; margin-bottom: 25px;">MUSTAQEEM'S SILVER SAND</div>
+        <div class="project-text">
+          <ul type="none">
+            <li>Easy access to educational, hospital and market area</li>
+            <li>Ample water supply, parking space</li>
+            <li>Modern style lift</li>
+          </ul>
+        </div>
+        <div class="project-btn btn-rightBorder">Read more</div>
+      </div>
+      <div class="project-image">
+        <img src="images/silver-sand-design.png" alt="divine" class="building-design">
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="project-image">
+        <img src="images/amin-seth-plaza-design.png" alt="divine" class="building-design">
+      </div>
+      <div class="project-desc">
+        <div class="project-date">--- JULY 2017</div>
+        <div class="project-title">AMIN SETH PLAZA</div>
+        <div class="project-text">
+          <ul type="none">
+            <li>Easy access to educational, hospital and market area</li>
+            <li>Ample water supply, parking space</li>
+            <li>Modern style lift</li>
+          </ul>
+        </div>
+        <div class="project-btn btn-rightBorder">Read more</div>
+      </div>
+    </div>
+
+    <div class="row" style="margin: 0 50% auto; text-transform: uppercase;">
+      <div class="project-btn btn-rightBorder btn-leftBorder" style="margin-top: 0;">See All Projects</div>
+    </div>
+
+  </div>
+
+  <script>
+    var slideImg = document.getElementById("slideImg");
+
+    var images = new Array(
+      "images/3_buildings.png",
+      "images/mail/Opt_B_01_High_resolution1.jpg",
+      "images/mail/Front_High resolution.jpg",
+      "images/amin_seth_plaza.png",
+      // "images/mail/Mithagri_High resolution.jpg",
+      "images/mail/Star_City_Building_01.jpg",
+      "images/mail/horizon view 8x120.jpg",
+      // "images/divine.png",
+      // "images/star_city.png",
+      // "images/hv.png"
+    );
+
+    var len = images.length;
+    var i=0;
+
+    function slider(){
+      if(i > len-1) {
+        i = 0;
       }
-    </style>
-  </head>
-  <body>
-    <h1>KnK Builders & Developers</h1>
-    <h3 style="color:orangered">Hello World</h3>
-  </body>
-</html>  
+      slideImg.src = images[i];
+      i++;
+      setTimeout('slider()', 3000);
+    }
+  </script>
+
+  <script>
+    $('.menu-icon').click(function(){
+      $(this).toggleClass("click");
+      $('.menu-items').toggleClass("show");
+    });
+  </script>
+
+</body>
+</html>
