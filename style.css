@@ -56,7 +56,7 @@
 }
 
 .banner {
-  background-image: url(./images/exotic-night.jpg);
+  background-image: url(./knkbuildersanddevelopers.github.io/images/exotic-night.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -123,135 +123,153 @@
   line-height: 3;
 }
 
-@media (max-width: 1280px) {
-  #content {
-    width: 30%;
-    left: 54%;
-  }
-}
 
-@media (max-width: 1024px) {
-  #banner-image img {
-    width: 400px;
-  }
-  #content {
-    left: 47%;
-    width: 37%;
-  }
-}
 
-@media (max-width: 768px) {
+@media screen and (min-width: 280px) {
+  #banner-img img {
+    width: 250px;
+    top: 53%;
+  }
   #content {
-    left: 33%;
-    top: 48%;
-    width: 50%;
+    top: 55%;
+    left: 10%;
+    width: 80%;
   }
   #content-title {
-    font-size: x-large;
+    font-size: medium;
     margin-bottom: -10px;
   }
   #content-text {
-    font-size: 19px;
-    width: 80%;
-    margin-left: 10%;
-    line-height: 2;
+    font-size: 14px;
+    line-height: normal;
   }
 }
 
-@media (max-width: 540px) {
+@media screen and (min-width: 320px) {
+  #banner-img img {
+    width: 265px;
+  }
   #content {
-    top: 49%;
-    left: 8%;
-    width: 71%;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  #banner-img img {
+    width: 280px;
+  }
+  #content {
+    top: 56%;
+    left: 9%;
+    width: 68%;
+  }
+  #content-title {
+    font-size: 16px;
   }
   #content-text {
-    line-height: 2;
+    font-size: 15px;
   }
 }
 
-@media (max-width: 425px) {
-  #banner-img img {
-    width: 350px;
-  }
+@media screen and (min-width: 375px) {
   #content {
-    top: 48%;
-    left: 9%;
-    width: 71%;
+    left: 8%;
+  }
+}
+
+
+@media screen and (min-width: 411px) {
+  #banner-img img {
+    width: 310px;
   }
   #content-title {
     font-size: larger;
   }
   #content-text {
-    font-size: medium;
-    line-height: 25px;
+    line-height: 2;
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (min-width: 540px) {
   #banner-img img {
-    width: 300px;
+    left: 8%;
+    width: 375px;
   }
   #content {
-    top: 48%;
-    left: 9%;
-    width: 69%;
+    left: 13%;
+    width: 60%;
   }
   #content-title {
+    font-size: 23px;
+    margin-bottom: -5px;
+  }
+  #content-text {
+    font-size: medium;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #banner-img img {
+    left: 30%;
+  }
+  #content {
+    left: 33%;
+    width: 43%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #banner-img img {
+    top: 45%;
+    width: 450px;
+  }
+  #content {
+    left: 33%;
+    top: 49%;
+    width: 38%;
+  }
+  #content-title {
+    font-size: 26px;
+    margin-bottom: -10px;
+  }
+  #content-text {
+    line-height: 2.8;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #banner-img img {
+    width: 500px;
+    left: 50%;
+  }
+  #content {
+    left: 53%;
+    top: 48%;
+    width: 30%;
+  }
+  #content-title {
+    font-size: 30px;
+  }
+  #content-text {
     font-size: large;
   }
-  #content-text {
-    margin-top: -10px;
-    font-size: 15px;
-    line-height: normal;
-  }
 }
 
-@media (max-width: 360px) {
-  #content {
-    width: 70%;
-  }
-  #content-text {
-    margin-top: -10px;
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 320px) {
-    .offcanvas-title {
-        font-size: large;
-    }
+@media screen and (min-width: 2560px) {
   #banner-img img {
-    width: 275px;
+    width: 850px;
+    top: 50%;
   }
   #content {
-    width: 72%;
+    top: 53%;
+    width: 28%;
   }
-  #content-title {
-    font-size: 15px;
-    margin-bottom: -15px;
+  #content-title{
+    font-size: 50px;
   }
   #content-text {
-    font-size: small;
-    line-height: normal;
+    font-size: xx-large;
+    line-height: 2.5;
   }
 }
 
-@media (max-width: 280px) {
-  .offcanvas-title {
-      font-size: 14px;
-  }
-  #banner-img img {
-    width: 250px;
-  }
-  #content {
-    top: 47%;
-    left: 9%;
-    width: 83%;
-  }
-  #content-title {
-    font-size: medium;
-  }
-  #content-text {
-    line-height: normal;
-  }
-}
