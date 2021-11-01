@@ -12,6 +12,7 @@
   --clr-light-blue: rgba(165, 206, 241, 0.7);
   --clr-green: rgb(13, 44, 18);
   --clr-light-green: #0a6e0ae3;
+  --clr-dark: #1b1b1b;
   --clr-gold: gold;
 }
 
@@ -49,6 +50,10 @@
 
 .bg-light-green {
   background-color: var(--clr-light-green);
+}
+
+.bg-dark {
+  background-color: var(--clr-dark);
 }
 
 .bg-gold {
@@ -122,6 +127,42 @@
 #content-text {
   line-height: 3;
 }
+
+.achievements {
+  border: 1px solid var(--clr-light-green);
+  padding: 5%;
+}
+
+.achievements span {
+  font-size: 65px;
+  color: var(--clr-light-green);
+}
+
+.achievements:hover {
+  background-color: var(--clr-light-green);
+  border: 1px solid var(--clr-gold);
+  color: var(--clr-blue);
+}
+
+.achievements:hover span {
+  color: var(--clr-gold);
+}
+
+.custom-btn {
+  border: 1px solid var(--clr-light-green);
+  padding: 15px;
+  text-decoration: none;
+  color: var(--clr-blue);
+  border-radius: 15px;
+}
+
+.custom-btn:hover {
+  border: 1px solid var(--clr-gold);
+  color: var(--clr-gold);
+  background-color: var(--clr-light-green);
+}
+
+
 
 
 
