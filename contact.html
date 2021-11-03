@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title -->
+    <title>KNK</title>
+
+    <!-- icon -->
+    <link rel="shortcut icon" type="image/jpg" href="./images/favicon.ico"/>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Montserrat Alternates -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body class="bg-dark clr-blue">
+
+  <!-- banner -->
+    <div class="banner">
+        
+        <nav class="navbar bg-transparent">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/knk-logo-half.png" alt="KnK" width="75" height="75" class="mx-2" id="main-logo">
+                </a>
+                <button class="navbar-toggler bg-gold p-3 sticky-top" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" id="menu-icon">
+                    <span class="material-icons">menu</span>
+                </button>
+
+                <div class="offcanvas offcanvas-end bg-dark text-light" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" data-bs-backdrop="false">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title clr-blue fw-bold
+                        " id="offcanvasNavbarLabel">
+                            <!-- <span class="bg-info border border-2 border-success rounded-pill px-3 py-2"><span class="clr-light-green">K</span><span class="clr-gold">n</span><span class="clr-light-green">K</span></span> -->
+                            <img src="./images/knk-logo-half.png" alt="knk" width="55" height="45">
+                             <span class="clr-light-green">Builders</span> <span class="clr-gold">&</span> <span class="clr-light-green">Developers</span></h5>
+                        <button type="button" class="btn-close bg-danger text-reset" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3 menu-items">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./projects.html">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./events.html">Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./gallery.html">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col offset-2">
+                    <h2 class="fw-bold bg-dark p-3 position-absolute border-5 border-start border-warning" style="width: fit-content;
+                    bottom: 15%;
+                    ">CONTACT</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+
+
+
+    <!-- footer -->
+    <div class="footer d-flex mb-5">
+        <div class="container mt-5 mb-5">
+          <div class="row mb-4">
+            <div class="col">
+              <h3 class="text-uppercase clr-light-green fw-bold">Quick Links</h3>
+              <hr class="w-25">
+            </div>
+          </div>
+          <div class="row text-center g-3">
+            <div class="col-6 col-md-4 col-lg-2">
+                <a href="./index.html" class="clr-blue text-decoration-none">Home</a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <a href="./about.html" class="clr-blue text-decoration-none">About</a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <a href="./projects.html" class="clr-blue text-decoration-none">Projects</a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <a href="./events.html" class="clr-blue text-decoration-none">Events</a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <a href="./gallery.html" class="clr-blue text-decoration-none">Gallery</a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <a href="./contact.html" class="clr-blue text-decoration-none">Contact</a>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-12 text-center">Copyright ©2021 All rights reserved | KnK Builders & Developers</div>
+          </div>
+        </div>
+      </div>
+
+    <!-- live toast -->
+      <button type="button" class="btn position-fixed bottom-0 end-0 m-3" id="liveToastBtn" style="z-index: 10">
+        <img src="https://img.icons8.com/dusk/64/000000/filled-chat.png"/>
+      </button>
+    
+    <!-- mail -->
+      <div class="position-fixed bottom-0 end-0" style="z-index: 11">
+        <div id="liveToast" class="toast bg-dark border border-info clr-gold" role="alert" aria-live="assertive" aria-atomic="true" style="width: 18rem;">
+          <div class="toast-header fs-5 bg-blue clr-light-green">
+            <img src="./images/knk-logo-half.png" class="rounded me-2" alt="knk-logo-half" width="48">
+            <strong class="me-auto">Email to KnK</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+          <div class="toast-body">
+            <form action="mailto:arshadalikaldane@gmail.com" method="post" enctype="multipart/form-data">
+
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control bg-light-green" id="floatingInputName" placeholder="name" required>
+                <label for="floatingInputName">Name</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control bg-light-green" id="floatingInputEmail" placeholder="name@example.com" required>
+                <label for="floatingInputEmail">Email address</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control bg-light-green" id="floatingInputSubject" placeholder="subject" required>
+                <label for="floatingInputSubject">Subject</label>
+              </div>
+
+              <div class="form-floating">
+                <textarea class="form-control bg-light-green" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" required></textarea>
+                <label for="floatingTextarea2">Message</label>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn custom-btn mt-3">
+                  <img src="https://img.icons8.com/external-prettycons-lineal-color-prettycons/49/000000/external-send-social-media-prettycons-lineal-color-prettycons.png"/>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    <!-- facebook -->
+      <div class="position-fixed bottom-0 start-0 m-3">
+        <a href="https://www.facebook.com/knkchiplun" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.icons8.com/dusk/49/000000/facebook-new--v2.png"/>
+        </a>
+      </div>
+
+
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script>
+      var toastTrigger = document.getElementById('liveToastBtn')
+      var toastLiveExample = document.getElementById('liveToast')
+      if (toastTrigger) {
+        toastTrigger.addEventListener('click', function () {
+          var toast = new bootstrap.Toast(toastLiveExample)
+
+          toast.show()
+        })
+      }
+    </script>
+  </body>
+
+</html>
