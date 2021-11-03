@@ -149,17 +149,42 @@
 }
 
 .custom-btn {
-  border: 1px solid var(--clr-light-green);
-  padding: 15px;
+  border: 2px solid var(--clr-light-green);
+  padding: 10px 15px;
   text-decoration: none;
   color: var(--clr-blue);
-  border-radius: 15px;
+  border-radius: 5px;
+  position: relative;
 }
 
 .custom-btn:hover {
-  border: 1px solid var(--clr-gold);
+  border: 2px solid var(--clr-gold);
   color: var(--clr-gold);
   background-color: var(--clr-light-green);
+}
+
+.btn-leftBorder::before {
+  content:"";
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -1.25rem;
+  min-width: 1.25rem;
+  height: 2px;
+  background: var(--clr-light-green);
+}
+
+.btn-rightBorder::after {
+  content:"";
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -1.25rem;
+  min-width: 1.25rem;
+  height: 2px;
+  background: var(--clr-light-green);
 }
 
 
