@@ -391,27 +391,31 @@
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
           <div class="toast-body">
-            <form action="mailto:arshadalikaldane@gmail.com" method="post" enctype="multipart/form-data">
+            <form id="contactform" action="https://formsubmit.co/arshadalikaldane@gmail.com" method="post">
 
               <div class="form-floating mb-3">
-                <input type="text" class="form-control bg-light-green" id="floatingInputName" placeholder="name" required>
-                <label for="floatingInputName">Name</label>
+                <input type="text" name="name" class="form-control bg-light-green" id="name" placeholder="name" required>
+                <label for="name">Name</label>
               </div>
 
               <div class="form-floating mb-3">
-                <input type="email" class="form-control bg-light-green" id="floatingInputEmail" placeholder="name@example.com" required>
-                <label for="floatingInputEmail">Email address</label>
+                <input type="email" name="email" class="form-control bg-light-green" id="email" placeholder="name@example.com" required>
+                <label for="email">Email address</label>
               </div>
 
               <div class="form-floating mb-3">
-                <input type="text" class="form-control bg-light-green" id="floatingInputSubject" placeholder="subject" required>
-                <label for="floatingInputSubject">Subject</label>
+                <input type="text" name="_subject" class="form-control bg-light-green" id="subject" placeholder="subject" required>
+                <label for="subject">Subject</label>
               </div>
 
               <div class="form-floating">
-                <textarea class="form-control bg-light-green" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" required></textarea>
-                <label for="floatingTextarea2">Message</label>
+                <textarea name="message" class="form-control bg-light-green" placeholder="Leave a comment here" id="message" style="height: 100px" required></textarea>
+                <label for="message">Message</label>
               </div>
+
+              <input name="_next" type="hidden" id="name" value="http://127.0.0.1:5500/knkbuildersanddevelopers.github.io/index.html">
+              <input type="hidden" name="_captcha" value="false">
+              
               <div class="text-center">
                 <button type="submit" class="btn custom-btn mt-3">
                   <img src="https://img.icons8.com/external-prettycons-lineal-color-prettycons/49/000000/external-send-social-media-prettycons-lineal-color-prettycons.png"/>
