@@ -187,7 +187,9 @@
   background: var(--clr-light-green);
 }
 
-
+.mission-text {
+  text-indent: 4em;
+}
 
 
 
