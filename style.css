@@ -93,7 +93,6 @@
 .menu-items li:hover {
   border: 1px solid var(--clr-gold);
   border-left: 5px solid var(--clr-gold);
-  color: var(--clr-gold);
   background-color: var(--clr-green);
 }
 
@@ -104,7 +103,7 @@
 }
 
 .menu-items li a:hover {
-  color: white;
+  color: var(--clr-gold);
   font-size: larger;
   font-weight: 500;
 }
