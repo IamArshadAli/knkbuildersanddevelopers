@@ -69,7 +69,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  height: 75vh;
 }
 
 .menu-icon {
@@ -132,8 +132,8 @@
 }
 
 .achievements {
-  border: 1px solid var(--clr-light-green);
   padding: 5%;
+  background-color: #3a3a3a;
 }
 
 .achievements span {
@@ -143,8 +143,7 @@
 
 .achievements:hover {
   background-color: var(--clr-light-green);
-  border: 1px solid var(--clr-gold);
-  color: var(--clr-blue);
+  color: var(--clr-gold);
 }
 
 .achievements:hover span {
