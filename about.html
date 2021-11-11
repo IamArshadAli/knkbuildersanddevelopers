@@ -9,7 +9,7 @@
     <meta name="author" content="KnK Builders & Developers">
 
     <!-- Title -->
-    <title>KNK</title>
+    <title>About Us</title>
 
     <!-- icon -->
     <link rel="shortcut icon" type="image/jpg" href="./images/favicon.ico">
@@ -20,7 +20,7 @@
     <!-- Montserrat Alternates -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sora&display=swap" rel="stylesheet">
 
     <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -29,146 +29,159 @@
     <link rel="stylesheet" href="./style.css">
   </head>
 
-  <body class="bg-dark clr-blue">
+  <body class="bg">
 
-  <!-- banner -->
-    <div class="banner">
-        
-        <nav class="navbar bg-transparent sticky-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="https://knkbuildersanddevelopers.com">
-                    <img src="./images/knk-logo-half.png" alt="KnK" width="75" height="75" class="mx-2" id="main-logo">
-                </a>
-                <button class="navbar-toggler bg-gold p-3 sticky-top" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" id="menu-icon">
-                    <span class="material-icons">menu</span>
-                </button>
+    <nav class="navbar bg-transparent fixed-top">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler bg-green text-light p-3 sticky-top" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" id="menu-icon">
+                <span class="material-icons">menu</span>
+            </button>
 
-                <div class="offcanvas offcanvas-end bg-dark text-light" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" data-bs-backdrop="false">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title clr-blue fw-bold
-                        " id="offcanvasNavbarLabel">
-                            <!-- <span class="bg-info border border-2 border-success rounded-pill px-3 py-2"><span class="clr-light-green">K</span><span class="clr-gold">n</span><span class="clr-light-green">K</span></span> -->
-                            <img src="./images/knk-logo-half.png" alt="knk" width="55" height="45">
-                             <span class="clr-light-green">Builders</span> <span class="clr-gold">&</span> <span class="clr-light-green">Developers</span></h5>
-                        <button type="button" class="btn-close bg-danger text-reset" data-bs-dismiss="offcanvas"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3 menu-items">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./about.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./projects.html">Projects</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./events.html">Events</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./gallery.html">Gallery</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" data-bs-backdrop="false" style="background-image: var(--grad);">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title clr-blue fw-bold
+                    " id="offcanvasNavbarLabel">
+                        <img src="./images/knk-logo-half.png" alt="knk" width="55" height="45">
+                          <span class="text-light">Builders</span> <span class="clr-gold">&</span> <span class="text-light">Developers</span></h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3 menu-items">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active-tab" href="./about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./events.html">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </nav>
-
-        <div class="container">
-            <div class="row">
-                <div class="col offset-2">
-                    <h2 class="fw-bold bg-dark p-3 position-absolute border-5 border-start border-warning" style="width: fit-content;
-                    bottom: 25%;
-                    ">ABOUT US</h2>
-                </div>
-            </div>
+            <a class="navbar-brand" href="https://knkbuildersanddevelopers.com">
+              <img src="./images/knk-logo-half.png" alt="KnK" width="75" height="75" class="mx-2" id="main-logo">
+          </a>
         </div>
+    </nav>
+
+    <div class="container-fluid navigation">
+      <div class="row d-flex flex-row">
+        <div class="col offset-0 offset-md-1 offset-lg-2 position-absolute navLinks">
+          <div class="hstack gap-2 gap-md-5">
+            <a href="./index.html" class="custom-link">Home</a>
+            <a href="./about.html" class="custom-link active">About</a>
+            <a href="./projects.html" class="custom-link">Projects</a>
+            <!-- <a href="./events.html" class="custom-link">Events</a> -->
+            <a href="./gallery.html" class="custom-link">Gallery</a>
+            <a href="./contact.html" class="custom-link">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="row contact-us">
+        <div class="col offset-3 position-absolute" style="bottom: 7%; width: fit-content; transform: skewY(-6.5deg);">
+          <a href="./contact.html" class="clr-green text-decoration-none fw-bold">Contact Us</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col d-none d-md-block position-absolute offset-0 offset-md-5 offset-lg-6 offset-xl-7" style="bottom: 1%; width: fit-content;">
+          <h4 class="clr-green">#WeBelieveInTransformation</h4>
+        </div>
+      </div>
     </div>
 
-  <!-- about -->
-    <div class="about">
-        <div class="container mt-5">
+    <!-- about -->
+    <div class="overflow-auto hidescroll about-container">
+      <div class="container">
+        <div class="row mx-lg-5">
+          <h3 class="text-uppercase clr-light-green fw-bold">About Our Company</h3>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-5 col-xl-6 col-xxl-5 mt-3">
+            <img src="./images/Office.jpg" alt="knk-logo" width="100%" height="auto">
+          </div>
+          <div class="col-12 col-md-6 col-lg-7 col-xl-6 col-xxl-7">
+            
             <div class="row">
-                <div class="col-12 col-md-4 col-lg-5 col-xl-6 col-xxl-5 mb-3">
-                <img src="./images/office-design.png" alt="knk-logo" width="100%" height="auto">
-                </div>
-                <div class="col-12 col-md-8 col-lg-7 col-xl-6 col-xxl-7">
-                <div class="row mb-2">
-                    <div class="col">
-                    <h3 class="text-uppercase clr-light-green fw-bold">About Our Company</h3>
-                    <hr class="w-50">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                    <h3 class="fw-bold mb-3"><span class="clr-light-green">K</span><span class="clr-gold">n</span><span class="clr-light-green">K</span> Builders & Developers</h3>
-                    <p class="mx-2 mx-md-3">We are known with different names may be it KNK Builders & Developers, NRK Builders, DIVINE Home Makers or ZAFEERA Estates. We are one group for whom construction is TRADITION</p>
-                    <p class="mx-2 mx-md-3">We do not build just concrete walls or building, We build homes. We believe that every person needs his dream home and we do our best to give it to you</p>
-                    <h5 class="clr-light-green fw-bold">We try to fulfill your dreams with our efforts</h5>
-                    </div>
-                </div>
-                </div>
+              <div class="col">
+                <h3 class="fw-bold mb-3 mt-3 mt-lg-0 clr-green" style="width: fit-content;"><span class="clr-light-green">K</span><span class="clr-gold">n</span><span class="clr-light-green">K</span> Builders & Developers</h3>
+                <p class="mx-2 mx-md-3">We are known with different names may be it KNK Builders & Developers, NRK Builders, DIVINE Home Makers or ZAFEERA Estates. We are one group for whom construction is TRADITION</p>
+                <p class="mx-2 mx-md-3">We do not build just concrete walls or building, We build homes. We believe that every person needs his dream home and we do our best to give it to you</p>
+                <h5 class="clr-light-green fw-bold">We try to fulfill your dreams with our efforts</h5>
+              </div>
             </div>
-            <div class="row text-center justify-content-center mt-5 mb-5 g-3">
-                <div class="col-12 col-md-6 col-lg-3">
-                <div class="achievements h-100 d-flex flex-row">
-                    <span class="material-icons">
-                    construction
-                    </span>
-                    <div class="achievement-info flex-col mx-4 mx-md-4 mx-lg-1 mx-xl-4">
-                    <div class="total-number fs-2 fw-bold">2010</div>
-                    <div class="achievement-title">Established Since</div>
-                    </div>
+          </div>
+        </div>
+        <!-- achievements -->
+        <div class="row text-center justify-content-center mt-5 g-3" style="transform: skewY(-6.5deg);">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="achievements h-100 d-flex flex-row">
+                <span class="material-icons">
+                construction
+                </span>
+                <div class="achievement-info flex-col mx-4 mx-md-4 mx-lg-1 mx-xl-4">
+                  <div class="total-number fs-2 fw-bold">2008</div>
+                  <div class="achievement-title">Established Since</div>
                 </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="achievements h-100 d-flex flex-row">
+                <span class="material-icons">
+                apartment
+                </span>
+                <div class="achievement-info flex-col mx-4 mx-md-4 mx-lg-1 mx-xl-4">
+                  <div class="total-number fs-2 fw-bold">20+</div>
+                  <div class="achievement-title">Projects Done</div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                <div class="achievements h-100 d-flex flex-row">
-                    <span class="material-icons">
-                    apartment
-                    </span>
-                    <div class="achievement-info flex-col mx-4 mx-md-4 mx-lg-1 mx-xl-4">
-                    <div class="total-number fs-2 fw-bold">20+</div>
-                    <div class="achievement-title">Projects Done</div>
-                    </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="achievements h-100 d-flex flex-row">
+                <span class="material-icons">
+                sentiment_satisfied_alt
+                </span>
+                <div class="achievement-info flex-col mx-4 mx-md-4 mx-lg-1 mx-xl-4">
+                  <div class="total-number fs-2 fw-bold">2534+</div>
+                  <div class="achievement-title">Happy Customers</div>
                 </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="achievements h-100 d-flex flex-row">
+                <span class="material-icons">
+                engineering
+                </span>
+                <div class="achievement-info flex-col mx-4 mx-md-4 mx-lg-1 mx-xl-4">
+                  <div class="total-number fs-2 fw-bold">35+</div>
+                  <div class="achievement-title">Real Professionals</div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                <div class="achievements h-100 d-flex flex-row">
-                    <span class="material-icons">
-                    sentiment_satisfied_alt
-                    </span>
-                    <div class="achievement-info flex-col mx-4 mx-md-4 mx-lg-1 mx-xl-4">
-                    <div class="total-number fs-2 fw-bold">2534+</div>
-                    <div class="achievement-title">Happy Customers</div>
-                    </div>
-                </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                <div class="achievements h-100 d-flex flex-row">
-                    <span class="material-icons">
-                    engineering
-                    </span>
-                    <div class="achievement-info flex-col mx-4 mx-md-4 mx-lg-1 mx-xl-4">
-                    <div class="total-number fs-2 fw-bold">35+</div>
-                    <div class="achievement-title">Real Professionals</div>
-                    </div>
-                </div>
-                </div>
+              </div>
             </div>
         </div>
+      </div>
     </div>
+
+
 
   <!-- our mission -->
-    <div class="mission">
+    <!-- <div class="mission">
       <div class="container mb-5">
 
         <div class="row mb-2">
           <div class="col">
-            <h3 class="text-uppercase clr-light-green">Our Mission</h3>
+            <h3 class="text-uppercase fw-bold clr-light-green">Our Mission</h3>
             <hr class="w-25 mt-0">
           </div>
         </div>
@@ -189,12 +202,12 @@
           <h5 class="text-end clr-light-green fw-bold">This is how we Build Family - The Odeon Family.</h5>
         </div>
       </div>
-    </div>
+    </div> -->
 
 
 
     <!-- footer -->
-    <div class="footer d-flex mb-5">
+    <!-- <div class="footer d-flex mb-5">
         <div class="container mt-5 mb-5">
           <div class="row mb-4">
             <div class="col">
@@ -204,29 +217,29 @@
           </div>
           <div class="row text-center g-3">
             <div class="col-6 col-md-4 col-lg-2">
-                <a href="./index.html" class="link-text clr-blue text-decoration-none">Home</a>
+                <a href="./index.html" class="custom-btn text-decoration-none">Home</a>
             </div>
             <div class="col-6 col-md-4 col-lg-2">
-                <a href="./about.html" class="link-text clr-blue text-decoration-none">About</a>
+                <a href="./about.html" class="custom-btn text-decoration-none">About</a>
             </div>
             <div class="col-6 col-md-4 col-lg-2">
-                <a href="./projects.html" class="link-text clr-blue text-decoration-none">Projects</a>
+                <a href="./projects.html" class="custom-btn text-decoration-none">Projects</a>
             </div>
             <div class="col-6 col-md-4 col-lg-2">
-                <a href="./events.html" class="link-text clr-blue text-decoration-none">Events</a>
+                <a href="./events.html" class="custom-btn text-decoration-none">Events</a>
             </div>
             <div class="col-6 col-md-4 col-lg-2">
-                <a href="./gallery.html" class="link-text clr-blue text-decoration-none">Gallery</a>
+                <a href="./gallery.html" class="custom-btn text-decoration-none">Gallery</a>
             </div>
             <div class="col-6 col-md-4 col-lg-2">
-                <a href="./contact.html" class="link-text clr-blue text-decoration-none">Contact</a>
+                <a href="./contact.html" class="custom-btn text-decoration-none">Contact</a>
             </div>
           </div>
           <div class="row mt-5">
             <div class="col-12 text-center">Copyright ©2021 All rights reserved | KnK Builders & Developers</div>
           </div>
         </div>
-      </div>
+      </div> -->
 
     <!-- live toast -->
       <button type="button" class="btn position-fixed bottom-0 end-0 m-3" id="liveToastBtn" style="z-index: 10">
