@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Title -->
-    <title>KNK</title>
+    <title>Gallery</title>
 
     <!-- icon -->
     <link rel="shortcut icon" type="image/jpg" href="./images/favicon.ico">
@@ -17,7 +17,7 @@
     <!-- Montserrat Alternates -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sora&display=swap" rel="stylesheet">
 
     <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -26,27 +26,25 @@
     <link rel="stylesheet" href="./style.css">
   </head>
 
-  <body class="bg-dark clr-blue">
+  <body class="bg">
 
   <!-- banner -->
-    <div class="banner">
+    <div class="">
         
-        <nav class="navbar bg-transparent sticky-top">
+        <nav class="navbar bg-transparent">
             <div class="container-fluid">
-                <a class="navbar-brand" href="https://knkbuildersanddevelopers.com">
-                    <img src="./images/knk-logo-half.png" alt="KnK" width="75" height="75" class="mx-2" id="main-logo">
-                </a>
-                <button class="navbar-toggler bg-gold p-3 sticky-top" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" id="menu-icon">
-                    <span class="material-icons">menu</span>
+                
+                <button class="navbar-toggler bg-green p-3 sticky-top" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" id="menu-icon">
+                    <span class="material-icons text-light">menu</span>
                 </button>
 
-                <div class="offcanvas offcanvas-end bg-dark text-light" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" data-bs-backdrop="false">
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" data-bs-backdrop="false" style="background-image: var(--grad);">
                     <div class="offcanvas-header">
                         <h5 class="offcanvas-title clr-blue fw-bold
                         " id="offcanvasNavbarLabel">
                             <!-- <span class="bg-info border border-2 border-success rounded-pill px-3 py-2"><span class="clr-light-green">K</span><span class="clr-gold">n</span><span class="clr-light-green">K</span></span> -->
                             <img src="./images/knk-logo-half.png" alt="knk" width="55" height="45">
-                             <span class="clr-light-green">Builders</span> <span class="clr-gold">&</span> <span class="clr-light-green">Developers</span></h5>
+                             <span class="text-light">Builders</span> <span class="clr-gold">&</span> <span class="text-light">Developers</span></h5>
                         <button type="button" class="btn-close bg-danger text-reset" data-bs-dismiss="offcanvas"></button>
                     </div>
                     <div class="offcanvas-body">
@@ -72,17 +70,35 @@
                         </ul>
                     </div>
                 </div>
+                <a class="navbar-brand" href="https://knkbuildersanddevelopers.com">
+                  <img src="./images/knk-logo-half.png" alt="KnK" width="75" height="75" class="mx-2" id="main-logo">
+              </a>
             </div>
         </nav>
 
-        <div class="container">
-            <div class="row">
-                <div class="col offset-2">
-                    <h2 class="fw-bold bg-dark p-3 position-absolute border-5 border-start border-warning" style="width: fit-content;
-                    bottom: 25%;
-                    ">GALLERY</h2>
-                </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col offset-0 offset-md-1 offset-lg-2 position-absolute navLinks">
+              <div class="hstack gap-2 gap-md-5">
+                <a href="./index.html" class="custom-link">Home</a>
+                <a href="./about.html" class="custom-link">About</a>
+                <a href="./projects.html" class="custom-link">Projects</a>
+                <!-- <a href="./events.html" class="custom-link">Events</a> -->
+                <a href="./gallery.html" class="custom-link active">Gallery</a>
+                <a href="./contact.html" class="custom-link">Contact Us</a>
+              </div>
             </div>
+          </div>
+          <div class="row contact-us">
+            <div class="col offset-3 position-absolute" style="bottom: 7%; width: fit-content; transform: skewY(-6.5deg);">
+              <a href="./contact.html" class="clr-green text-decoration-none fw-bold">Contact Us</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col d-none d-md-block position-absolute offset-0 offset-md-5 offset-lg-6 offset-xl-7" style="bottom: 1%; width: fit-content;">
+              <h4 class="clr-green">#WeBelieveInTransformation</h4>
+            </div>
+          </div>
         </div>
     </div>
 
@@ -94,7 +110,7 @@
 
 
     <!-- footer -->
-    <div class="footer d-flex mb-5">
+    <!-- <div class="footer d-flex mb-5">
         <div class="container mt-5 mb-5">
           <div class="row mb-4">
             <div class="col">
@@ -126,7 +142,7 @@
             <div class="col-12 text-center">Copyright ©2021 All rights reserved | KnK Builders & Developers</div>
           </div>
         </div>
-      </div>
+      </div> -->
 
     <!-- live toast -->
       <button type="button" class="btn position-fixed bottom-0 end-0 m-3" id="liveToastBtn" style="z-index: 10">
