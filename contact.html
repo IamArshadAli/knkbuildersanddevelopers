@@ -9,7 +9,7 @@
     <meta name="author" content="KnK Builders & Developers">
 
     <!-- Title -->
-    <title>KNK</title>
+    <title>Contact US</title>
 
     <!-- icon -->
     <link rel="shortcut icon" type="image/jpg" href="./images/favicon.ico">
@@ -20,7 +20,7 @@
     <!-- Montserrat Alternates -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sora&display=swap" rel="stylesheet">
 
     <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -29,144 +29,158 @@
     <link rel="stylesheet" href="./style.css">
   </head>
 
-  <body class="bg-dark clr-blue">
+  <body class="bg">
 
   <!-- banner -->
-    <div class="banner">
-        
-        <nav class="navbar bg-transparent sticky-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="https://knkbuildersanddevelopers.com">
-                    <img src="./images/knk-logo-half.png" alt="KnK" width="75" height="75" class="mx-2" id="main-logo">
-                </a>
-                <button class="navbar-toggler bg-gold p-3 sticky-top" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" id="menu-icon">
-                    <span class="material-icons">menu</span>
-                </button>
+    
+      <nav class="navbar bg-transparent fixed-top">
+          <div class="container-fluid">
+              
+              <button class="navbar-toggler bg-green p-3 sticky-top" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" id="menu-icon">
+                  <span class="material-icons text-light">menu</span>
+              </button>
 
-                <div class="offcanvas offcanvas-end bg-dark text-light" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" data-bs-backdrop="false">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title clr-blue fw-bold
-                        " id="offcanvasNavbarLabel">
-                            <!-- <span class="bg-info border border-2 border-success rounded-pill px-3 py-2"><span class="clr-light-green">K</span><span class="clr-gold">n</span><span class="clr-light-green">K</span></span> -->
-                            <img src="./images/knk-logo-half.png" alt="knk" width="55" height="45">
-                             <span class="clr-light-green">Builders</span> <span class="clr-gold">&</span> <span class="clr-light-green">Developers</span></h5>
-                        <button type="button" class="btn-close bg-danger text-reset" data-bs-dismiss="offcanvas"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3 menu-items">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./about.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./projects.html">Projects</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./events.html">Events</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./gallery.html">Gallery</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" data-bs-backdrop="false" style="background-image: var(--grad);">
+                  <div class="offcanvas-header">
+                      <h5 class="offcanvas-title clr-blue fw-bold
+                      " id="offcanvasNavbarLabel">
+                          <!-- <span class="bg-info border border-2 border-success rounded-pill px-3 py-2"><span class="clr-light-green">K</span><span class="clr-gold">n</span><span class="clr-light-green">K</span></span> -->
+                          <img src="./images/knk-logo-half.png" alt="knk" width="55" height="45">
+                            <span class="text-light">Builders</span> <span class="clr-gold">&</span> <span class="text-light">Developers</span></h5>
+                      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3 menu-items">
+                          <li class="nav-item">
+                              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="./about.html">About</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="./projects.html">Projects</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="./events.html">Events</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="./gallery.html">Gallery</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="./contact.html">Contact</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+              <a class="navbar-brand" href="https://knkbuildersanddevelopers.com">
+                <img src="./images/knk-logo-half.png" alt="KnK" width="75" height="75" class="mx-2" id="main-logo">
+            </a>
+          </div>
+      </nav>
 
-        <div class="container">
-            <div class="row">
-                <div class="col offset-2">
-                    <h2 class="fw-bold bg-dark p-3 position-absolute border-5 border-start border-warning" style="width: fit-content;
-                    bottom: 25%;
-                    ">CONTACT US</h2>
-                </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col offset-0 offset-md-1 offset-lg-2 position-absolute navLinks">
+            <div class="hstack gap-2 gap-md-5">
+              <a href="./index.html" class="custom-link">Home</a>
+              <a href="./about.html" class="custom-link">About</a>
+              <a href="./projects.html" class="custom-link">Projects</a>
+              <!-- <a href="./events.html" class="custom-link">Events</a> -->
+              <a href="./gallery.html" class="custom-link">Gallery</a>
+              <a href="./contact.html" class="custom-link">Contact Us</a>
             </div>
+          </div>
         </div>
-    </div>
-
-    <!-- map -->
-    <div class="map-box">
-        <div class="container mt-5">
-            <div class="row">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1902.2192836547185!2d73.49976775160962!3d17.534294216190442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1635940013216!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
+        <div class="row contact-us">
+          <div class="col offset-3 position-absolute" style="bottom: 7%; width: fit-content; transform: skewY(-6.5deg);">
+            <a href="./contact.html" class="clr-green text-decoration-none fw-bold border border-secondary p-1 active">Contact Us</a>
+          </div>
         </div>
-    </div>
-
-    <!-- contact details -->
-    <div class="contact mt-5">
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-12 col-md-5 col-lg-5 mt-md-5 mt-lg-1 mb-3">
-                    <div class="d-flex">
-                        <span class="material-icons flex-shrink-0 clr-gold">home</span>
-                        <div class="flex-grow-1 ms-3">
-                            <h6>Opp. LifeCare Hospital</h6>
-                            <p class="clr-light-blue">Mumbai - Goa Bypass road, Chiplun</p>
-                        </div>
-                    </div>
-                    <div class="d-flex">
-                        <span class="material-icons flex-shrink-0 clr-gold">phone</span>
-                        <div class="flex-grow-1 ms-3">
-                            <h6>+91 8875487548</h6>
-                            <p class="clr-light-blue">Mon to Sat 10am to 7pm</p>
-                        </div>
-                    </div>
-                    <div class="d-flex">
-                        <span class="material-icons flex-shrink-0 clr-gold">email</span>
-                        <div class="flex-grow-1 ms-3">
-                            <h6>help@knkbuildersanddevelopers.com</h6>
-                            <p class="clr-light-blue">Send us your query anytime!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-7 col-lg-7">
-                    <form action="https://formsubmit.co/38f2c49209cd04a0b881a93833cf54dc" method="post">
-                        <div class="row">
-                            <div class="col-lg-5">
-                                <div class="form-floating mb-3">
-                                    <input type="text" name="name" class="form-control bg-light-green" id="floatingInputName" placeholder="name" required>
-                                    <label for="floatingInputName">Name</label>
-                                </div>
-                
-                                <div class="form-floating mb-3">
-                                <input type="email" name="email" class="form-control bg-light-green" id="floatingInputEmail" placeholder="name@example.com" required>
-                                <label for="floatingInputEmail">Email address</label>
-                                </div>
-                
-                                <div class="form-floating mb-3">
-                                <input type="text" name="_subject" class="form-control bg-light-green" id="floatingInputSubject" placeholder="subject" required>
-                                <label for="floatingInputSubject">Subject</label>
-                                </div>
-                            </div>
-                            <div class="col-lg-7">
-                                <div class="form-floating">
-                                    <textarea name="message" class="form-control bg-light-green" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 150px" required></textarea>
-                                    <label for="floatingTextarea2">Message</label>
-                                </div>
-                                
-                                <input name="_next" type="hidden" id="name" value="https://knkbuildersanddevelopers.com/contact.html">
-                                <input type="hidden" name="_captcha" value="false">
-
-                                <div class="text-center">
-                                    <button type="submit" class="btn-leftBorder btn custom-btn btn-rightBorder mt-3 text-uppercase">Send Message</button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
+        <div class="row">
+          <div class="col d-none d-md-block position-absolute offset-0 offset-md-5 offset-lg-6 offset-xl-7" style="bottom: 1%; width: fit-content;">
+            <h4 class="clr-green">#WeBelieveInTransformation</h4>
+          </div>
         </div>
+      </div>
+
+    <div class="overflow-auto hidescroll contact-container">
+      <div class="container">
+        <!-- map -->
+      <div class="map-box ">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1902.2192836547185!2d73.49976775160962!3d17.534294216190442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1635940013216!5m2!1sen!2sin" width="100%" height="300px" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+
+      <!-- contact details -->
+      <div class="contact mt-3">
+          <div class="container">
+              <div class="row">
+                  <div class="col-12 col-md-5 col-lg-5 mt-md-5 mt-lg-1 mb-3">
+                      <div class="d-flex">
+                          <span class="material-icons flex-shrink-0 clr-green">home</span>
+                          <div class="flex-grow-1 ms-3">
+                              <h6 class="fw-bold">Opp. LifeCare Hospital</h6>
+                              <p>Mumbai - Goa Bypass, Chiplun</p>
+                          </div>
+                      </div>
+                      <div class="d-flex">
+                          <span class="material-icons flex-shrink-0 clr-green">phone</span>
+                          <div class="flex-grow-1 ms-3">
+                              <h6 class="fw-bold">+91 88 7548 7548</h6>
+                              <p>Mon to Sat 10am to 7pm</p>
+                          </div>
+                      </div>
+                      <div class="d-flex">
+                          <span class="material-icons flex-shrink-0 clr-green">email</span>
+                          <div class="flex-grow-1 ms-3">
+                              <h6 class="fw-bold">enquiry@knkbuildersanddevelopers.com</h6>
+                              <p>Send us your query anytime!</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-7 col-lg-7">
+                      <form action="https://formsubmit.co/38f2c49209cd04a0b881a93833cf54dc" method="post">
+                          <div class="row">
+                              <div class="col-lg-5">
+                                  <div class="form-floating mb-3">
+                                      <input type="text" name="name" class="form-control bg-green" id="floatingInputName" placeholder="name" required>
+                                      <label for="floatingInputName">Name</label>
+                                  </div>
+                  
+                                  <div class="form-floating mb-3">
+                                  <input type="email" name="email" class="form-control bg-green" id="floatingInputEmail" placeholder="name@example.com" required>
+                                  <label for="floatingInputEmail">Email address</label>
+                                  </div>
+                  
+                                  <div class="form-floating mb-3">
+                                  <input type="text" name="_subject" class="form-control bg-green" id="floatingInputSubject" placeholder="subject" required>
+                                  <label for="floatingInputSubject">Subject</label>
+                                  </div>
+                              </div>
+                              <div class="col-lg-7">
+                                  <div class="form-floating">
+                                      <textarea name="message" class="form-control bg-green" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 150px" required></textarea>
+                                      <label for="floatingTextarea2">Message</label>
+                                  </div>
+                                  
+                                  <input name="_next" type="hidden" id="name" value="https://knkbuildersanddevelopers.com/contact.html">
+                                  <input type="hidden" name="_captcha" value="false">
+
+                                  <div class="text-center">
+                                      <button type="submit" class="btn-leftBorder btn custom-btn btn-rightBorder mt-3 text-uppercase">Send Message</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
     </div>
 
 
     <!-- footer -->
-    <div class="footer d-flex mb-5">
+    <!-- <div class="footer d-flex mb-5">
         <div class="container mt-5 mb-5">
           <div class="row mb-4">
             <div class="col">
@@ -176,29 +190,29 @@
           </div>
           <div class="row text-center g-3">
             <div class="col-6 col-md-4 col-lg-2">
-                <a href="./index.html" class="link-text clr-blue text-decoration-none">Home</a>
+                <a href="./index.html" class="custom-btn text-decoration-none">Home</a>
             </div>
             <div class="col-6 col-md-4 col-lg-2">
-                <a href="./about.html" class="link-text clr-blue text-decoration-none">About</a>
+                <a href="./about.html" class="custom-btn text-decoration-none">About</a>
             </div>
             <div class="col-6 col-md-4 col-lg-2">
-                <a href="./projects.html" class="link-text clr-blue text-decoration-none">Projects</a>
+                <a href="./projects.html" class="custom-btn text-decoration-none">Projects</a>
             </div>
             <div class="col-6 col-md-4 col-lg-2">
-                <a href="./events.html" class="link-text clr-blue text-decoration-none">Events</a>
+                <a href="./events.html" class="custom-btn text-decoration-none">Events</a>
             </div>
             <div class="col-6 col-md-4 col-lg-2">
-                <a href="./gallery.html" class="link-text clr-blue text-decoration-none">Gallery</a>
+                <a href="./gallery.html" class="custom-btn text-decoration-none">Gallery</a>
             </div>
             <div class="col-6 col-md-4 col-lg-2">
-                <a href="./contact.html" class="link-text clr-blue text-decoration-none">Contact</a>
+                <a href="./contact.html" class="custom-btn text-decoration-none">Contact</a>
             </div>
           </div>
           <div class="row mt-5">
             <div class="col-12 text-center">Copyright ©2021 All rights reserved | KnK Builders & Developers</div>
           </div>
         </div>
-      </div>
+      </div> -->
 
     <!-- live toast -->
       <button type="button" class="btn position-fixed bottom-0 end-0 m-3" id="liveToastBtn" style="z-index: 10">
@@ -218,22 +232,22 @@
             <form id="contactform" action="https://formsubmit.co/38f2c49209cd04a0b881a93833cf54dc" method="post">
 
               <div class="form-floating mb-3">
-                <input type="text" name="name" class="form-control bg-light-green" id="name" placeholder="name" required>
+                <input type="text" name="name" class="form-control bg-green" id="name" placeholder="name" required>
                 <label for="name">Name</label>
               </div>
 
               <div class="form-floating mb-3">
-                <input type="email" name="email" class="form-control bg-light-green" id="email" placeholder="name@example.com" required>
+                <input type="email" name="email" class="form-control bg-green" id="email" placeholder="name@example.com" required>
                 <label for="email">Email address</label>
               </div>
 
               <div class="form-floating mb-3">
-                <input type="text" name="_subject" class="form-control bg-light-green" id="subject" placeholder="subject" required>
+                <input type="text" name="_subject" class="form-control bg-green" id="subject" placeholder="subject" required>
                 <label for="subject">Subject</label>
               </div>
 
               <div class="form-floating">
-                <textarea name="message" class="form-control bg-light-green" placeholder="Leave a comment here" id="message" style="height: 100px" required></textarea>
+                <textarea name="message" class="form-control bg-green" placeholder="Leave a comment here" id="message" style="height: 100px" required></textarea>
                 <label for="message">Message</label>
               </div>
 
