@@ -259,6 +259,8 @@
   bottom: 7%;
   width: fit-content; 
   transform: skewY(-6.5deg);
+  padding: 5px;
+  background-color: var(--green);
 }
 
 .about-container {
