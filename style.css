@@ -257,7 +257,7 @@
 
 .navLinks {
   bottom: 7%;
-  width: fit-content; 
+  
   transform: skewY(-6.5deg);
   padding: 5px;
   background-color: var(--green);
@@ -347,6 +347,7 @@
 @media screen and (min-width: 768px) {
   .navLinks {
     bottom: 15%;
+    width: fit-content; 
   }
   .about-container {
     padding-top: 7%;
