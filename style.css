@@ -93,6 +93,11 @@
   height: 100%;
 }
 
+.main-logo {
+  top: 0;
+  right: 0;
+}
+
 .banner {
   background-image: url(./images/background.png);
   background-size: cover;
