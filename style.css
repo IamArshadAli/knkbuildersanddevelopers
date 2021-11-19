@@ -342,6 +342,28 @@
   .navLinks {
     bottom: 14%;
   }
+  
+  .navLinks::after {
+    content: '';
+    width: 5%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    border-top: 25px solid transparent;
+    border-left: 25px solid var(--green);
+  }
+  
+  .navLinks::before {
+    content: '';
+    width: 5%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 100%;
+    border-top: 25px solid transparent;
+    border-right: 25px solid var(--green);
+  }
 }
 
 @media screen and (min-width: 768px) {
