@@ -258,7 +258,7 @@
 .navLinks {
   bottom: 7%;
   
-  transform: skewY(-6.5deg);
+  transform: skewY(-6.3deg);
   padding: 5px;
   background-color: var(--green);
 }
