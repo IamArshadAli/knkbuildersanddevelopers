@@ -271,7 +271,7 @@
   transform: skewY(-6.5deg);
 }
 
-.about-container .container {
+.about-container .container, .gallery-container .container {
   transform: skewY(6.5deg);
 }
 
@@ -281,6 +281,14 @@
   padding-top: 32%;
   height: 77%;
   width: 100%;
+}
+
+.gallery-container {
+  position: absolute;
+  top:7%;
+  padding-top: 5%;
+  height: 72%;
+  transform: skewY(-6.5deg);
 }
 
 
