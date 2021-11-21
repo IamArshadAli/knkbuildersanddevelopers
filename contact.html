@@ -146,7 +146,10 @@
                       </div>
                   </div>
                   <div class="col-12 col-md-7 col-lg-7" id="contact-form">
-                      <form action="https://formsubmit.co/dc9c8137534ae196260c9a4472fdc801" method="post">
+                      <form id="contactform" action="https://formsubmit.io/send/df5e3a06-fc07-445b-8805-bbe68b7a0095" method="post">
+
+                        <input name="_redirect" type="hidden" id="name" value="https://knkbuildersanddevelopers.com/contact.html">
+                        
                           <div class="row">
                               <div class="col-lg-5">
                                   <div class="form-floating mb-3">
@@ -170,8 +173,7 @@
                                       <label for="floatingTextarea2">Message</label>
                                   </div>
                                   
-                                  <input name="_next" type="hidden" id="name" value="https://knkbuildersanddevelopers.com/contact.html">
-                                  <input type="hidden" name="_captcha" value="false">
+                                  <input name="_formsubmit_id" type="text" style="display:none">
 
                                   <div class="text-center">
                                       <button type="submit" class="btn-leftBorder btn custom-btn btn-rightBorder mt-3 text-uppercase">Send Message</button>
@@ -231,15 +233,17 @@
     
     <!-- mail -->
       <div class="position-fixed bottom-0 end-0" style="z-index: 11">
-        <div id="liveToast" class="toast bg-dark border border-info clr-gold" role="alert" aria-live="assertive" aria-atomic="true" style="width: 18rem;">
-          <div class="toast-header fs-5 bg-blue clr-light-green">
-            <img src="./images/knk-logo-half.png" class="rounded me-2" alt="knk-logo-half" width="48">
-            <strong class="me-auto">Email to KnK</strong>
+        <div id="liveToast" class="toast border border-success text-dark" role="alert" aria-live="assertive" aria-atomic="true" style="width: 18rem; background-image: var(--grad);">
+          <div class="toast-header fs-5 " style="background-color: var(--green);">
+            <img src="./images/knk-logo-half.png" class="rounded me-2" alt="knk-logo-half" width="50">
+            <span class="me-auto text-light">Email to KnK</span>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
           <div class="toast-body">
             <!-- form -->
-            <form id="contactform" action="https://formsubmit.co/dc9c8137534ae196260c9a4472fdc801" method="post">
+            <form id="contactform" action="https://formsubmit.io/send/df5e3a06-fc07-445b-8805-bbe68b7a0095" method="post">
+
+              <input name="_redirect" type="hidden" id="name" value="https://knkbuildersanddevelopers.com/gallery.html">
 
               <div class="form-floating mb-3">
                 <input type="text" name="name" class="form-control bg-green" id="name" placeholder="name" required>
@@ -261,8 +265,7 @@
                 <label for="message">Message</label>
               </div>
 
-              <input name="_next" type="hidden" id="name" value="https://knkbuildersanddevelopers.com/contact.html">
-              <input type="hidden" name="_captcha" value="false">
+              <input name="_formsubmit_id" type="text" style="display:none">
               
               <div class="text-center">
                 <button type="submit" class="btn custom-btn mt-3">
