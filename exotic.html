@@ -361,38 +361,39 @@
     
     <!-- mail -->
       <div class="position-fixed bottom-0 end-0" style="z-index: 11">
-        <div id="liveToast" class="toast bg-dark border border-info clr-gold" role="alert" aria-live="assertive" aria-atomic="true" style="width: 18rem;">
-          <div class="toast-header fs-5 bg-blue clr-light-green">
-            <img src="./images/knk-logo-half.png" class="rounded me-2" alt="knk-logo-half" width="48">
-            <strong class="me-auto">Email to KnK</strong>
+        <div id="liveToast" class="toast border border-success text-dark" role="alert" aria-live="assertive" aria-atomic="true" style="width: 18rem; background-image: var(--grad);">
+          <div class="toast-header fs-5 " style="background-color: var(--green);">
+            <img src="./images/knk-logo-half.png" class="rounded me-2" alt="knk-logo-half" width="50">
+            <span class="me-auto text-light">Email to KnK</span>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
           <div class="toast-body">
             <!-- form -->
-            <form id="contactform" action="https://formsubmit.co/dc9c8137534ae196260c9a4472fdc801" method="post">
+            <form id="contactform" action="https://formsubmit.io/send/df5e3a06-fc07-445b-8805-bbe68b7a0095" method="post">
+
+              <input name="_redirect" type="hidden" id="name" value="https://knkbuildersanddevelopers.com/gallery.html">
 
               <div class="form-floating mb-3">
-                <input type="text" name="name" class="form-control bg-light-green" id="name" placeholder="name" required>
+                <input type="text" name="name" class="form-control bg-green" id="name" placeholder="name" required>
                 <label for="name">Name</label>
               </div>
 
               <div class="form-floating mb-3">
-                <input type="email" name="email" class="form-control bg-light-green" id="email" placeholder="name@example.com" required>
+                <input type="email" name="email" class="form-control bg-green" id="email" placeholder="name@example.com" required>
                 <label for="email">Email address</label>
               </div>
 
               <div class="form-floating mb-3">
-                <input type="text" name="_subject" class="form-control bg-light-green" id="subject" placeholder="subject" required>
+                <input type="text" name="_subject" class="form-control bg-green" id="subject" placeholder="subject" required>
                 <label for="subject">Subject</label>
               </div>
 
               <div class="form-floating">
-                <textarea name="message" class="form-control bg-light-green" placeholder="Leave a comment here" id="message" style="height: 100px" required></textarea>
+                <textarea name="message" class="form-control bg-green" placeholder="Leave a comment here" id="message" style="height: 100px" required></textarea>
                 <label for="message">Message</label>
               </div>
 
-              <input name="_next" type="hidden" id="name" value="https://knkbuildersanddevelopers.com/index.html">
-              <input type="hidden" name="_captcha" value="false">
+              <input name="_formsubmit_id" type="text" style="display:none">
               
               <div class="text-center">
                 <button type="submit" class="btn custom-btn mt-3">
